@@ -30,6 +30,7 @@ Library for gnome utility pqmarble.
 
 %package -n %{girname}
 Summary:        Introspection file for %{name}
+Requires:	%{libname} = %{version}-%{release}
 
 %description -n %{girname}
 This package contains introspection file for %{name}.
