@@ -8,7 +8,7 @@
 Name:           pqmarble
 Version:        2.0.0
 Release:        0.%{git}.0
-Summary:        A simple user-friendly terminal emulator for the GNOME desktop
+Summary:        Utility library for GNOME apps.
 License:        GPL-3.0
 URL:            https://gitlab.gnome.org/raggesilver/marble/
 Source:         https://gitlab.gnome.org/raggesilver/marble/-/archive/master/marble-master.tar.bz2
