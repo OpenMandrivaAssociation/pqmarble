@@ -10,7 +10,7 @@ Source:         https://gitlab.gnome.org/raggesilver/marble/-/archive/master/mar
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk4)
-BuildRequires:  pkgconfig(vaapigen)
+BuildRequires:  pkgconfig(vapigen)
 
 %description
 Utility library for GNOME apps.
