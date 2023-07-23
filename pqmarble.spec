@@ -12,6 +12,7 @@ Summary:        Utility library for GNOME apps.
 License:        GPL-3.0
 URL:            https://gitlab.gnome.org/raggesilver/marble/
 Source:         https://gitlab.gnome.org/raggesilver/marble/-/archive/master/marble-master.tar.bz2
+Patch0:		pqmarble-gobject-sucks.patch
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk4)

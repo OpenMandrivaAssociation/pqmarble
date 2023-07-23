@@ -1,0 +1,12 @@
+diff -up marble-master/src/meson.build.omv~ marble-master/src/meson.build
+--- marble-master/src/meson.build.omv~	2023-07-23 13:50:12.010178258 +0200
++++ marble-master/src/meson.build	2023-07-23 13:51:45.535071725 +0200
+@@ -41,7 +41,7 @@ g_ir_compiler = find_program('g-ir-compi
+ custom_target(pqmarble_typelib,
+   command: [
+     g_ir_compiler,
+-    '--shared-library', pqmarble_lib.full_path(),
++    '--shared-library', 'libpqmarble.so.2',
+     '--output', '@OUTPUT@',
+     join_paths(meson.current_build_dir(), pqmarble_gir)
+   ],
