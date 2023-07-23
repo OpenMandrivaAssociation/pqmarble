@@ -25,6 +25,7 @@ Utility library for GNOME apps.
 %package -n %{libname}
 Summary:        Shared library for %{name}
 Requires:	%{girname} = %{version}-%{release}
+Provides:  pqmarble
 
 %description -n %{libname}
 Library for gnome utility pqmarble.
